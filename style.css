@@ -1,0 +1,119 @@
+/* membuat warna ff7f00 menjadi variable warna utama1 */
+:root {
+    --utama1: #000000;
+    --utama2: #010101;
+    --sekuder1: #f0f0f0;
+    --sekuder2: #333;
+  }
+
+/* Gaya CSS yang sama seperti sebelumnya */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* ... (sisanya sama) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.code-block {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+pre {
+    background-color: #e8e8e8;
+    padding: 10px;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: Consolas, monospace;
+    font-size: 16px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(0, 38, 255);
+    background-color: transparent;
+    border: 2px solid var(--utama1);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 5px;
+    margin: 5px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+    img {
+      width: 20px;
+      margin-right: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .cta:hover {
+    color: white;
+    background-color: var(--utama1);
+  }
+  
+  .cta {
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f1f1f1; /* Sesuaikan warna latar belakang */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999; /* Pastikan navbar selalu di atas elemen lain */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold; /* Membuat teks menjadi tebal */
+    padding: 15px;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
